@@ -17,7 +17,9 @@ Developed by:
 ## Description
 <!--
 Give a short description on what your project accomplishes and what tools is uses. In addition, you can drop screenshots directly into your README file to add them to your README. Take these from your presentations.
--->
+--> This project is to he imporve the geolocation data to the deimeter by connecting the geospatial information of human behavior with mobile internet, also we want to advance research in smartphone GNSS positioning accuracy and help people better navigate the world around them and improve mobile phone location accuracy to the decimeter.
+
+
 
 ## Usage instructions
 <!--
@@ -26,4 +28,13 @@ Give details on how to install fork and install your project. You can get all of
 1. Fork this repo
 2. Change directories into your project
 3. On the command line, type `pip3 install requirements.txt`
-4. ....
+4. Download the google smartphone decimeter challenge folder from kaggle
+5. Unzip that folder
+6. Go into the unzipped folder
+7. Create a new folder called **"sample3"** in the unzipped google smartphone decimeter challenge folder, this will hold the samples you choose
+8. Go into the train folder in the unzipped folder
+9. Select the folders which you want to include in your sample. Each folder has different phone models and data in it. IF you want a sample that includes every phone you have to see which phones are in them. There are seven phones in total.
+10. Once you've chosen your sample folders, move the selected data into the folder you created to hold your samples, which should be located in the google smartphone decimeter challenge.
+11. Zip the folder containing your chosen samples
+12. Upload your zipped sample folder to the colab notebook
+
